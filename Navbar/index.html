@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            
+            gap: 35px;
+            margin: 2px;
+        }
+
+        li:hover {
+            cursor: pointer;
+            color: chartreuse;
+            transition: .3s;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #05d305;
+            padding: 10px;
+            font-family: sans-serif;
+        }
+
+        nav>.logo {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="logo">
+                SMIT
+            </span>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Portfolio</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
