@@ -9,17 +9,28 @@
     <meta name="author" content="Abdul Moiz" />
     <title>FAN IMAGE</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
 </head>
 
 <body>
     <header>
         <h1 id="heading">Running Car Task</h1>
         <h2>Instruction:</h2>
-        <p>Place you Mouse on the car and see the magic.</p>
+        <p>Place your Mouse on the car and see the magic.</p>
     </header>
+    <section class="loader-container">
+        <p class="loader-heading">Loader</p>
+        <div class="progress-bar">
+            <div class="loader"></div>
+        </div>
+    </section>
     <section class="img-container">
         <div class="img-box"></div>
         <div class="border"></div>
+        <div class="btn-container">
+            <button id="start-btn">Start</button>
+            <button id="back-btn">Back</button>
+        </div>
     </section>
     <footer>
         <p>&copy; <strong>Abdul Moiz</strong></p>
