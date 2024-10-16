@@ -1,0 +1,54 @@
+* {
+    margin: 0
+}
+
+body {
+    background-color: rgb(252, 123, 94);
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(209, 56, 21);
+    text-shadow: 0 0 2px gold;
+    font-family: sans-serif;
+}
+
+section.img-container {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-box {
+    width: 338px;
+    height: 120px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/193/929/small/vintage-car.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: 6s;
+    position: relative;
+    left: 0;
+}
+
+.img-box:hover {
+    filter: brightness(0%);
+    left: 50%;
+}
+
+div.border {
+    width: vw;
+    border-bottom: 2px solid #000;
+}
+
+footer {
+    background-color: rgb(209, 56, 21);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    color: darkorange;
+}
