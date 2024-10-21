@@ -1,0 +1,32 @@
+Responsive web app designning:
+--> Understanding Units
+            --px 
+            --%
+            --em,rem
+            --vmin,vmax
+            --vw,vh
+
+
+-->LAYOUT OF THE WEBSITE
+            --position vs flexbox? (Recommend to use flexbox)
+
+
+--> Flexbox 
+           -- Display Flex
+           --main(x) and cross(y) axis
+           --Flex Direction
+           --Flex wrap  
+
+
+--- CSS Media Queries
+
+
+key points to keep in mind to make website Responsive
+----Flexbox
+----Media Query
+----CSS units
+----Responsive Typography
+----Mobile first approach
+-----Flexible Images and Media
+
+Practice!   Practice!   Practice!
