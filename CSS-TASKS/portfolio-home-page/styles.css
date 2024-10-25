@@ -1,0 +1,149 @@
+:root {
+    --my-color: #48c6d79a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    width: 92%;
+    height: 92%;
+    background-color: #e9f8fa;
+    box-shadow: 0 5px 10px #00000052;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.container:hover {
+    background-color: #ccf5fa;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: .5vw 4.5vw;
+    align-items: center;
+}
+
+header nav,
+.icon-box {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+header nav {
+    height: 5vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #464646af;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+h2.logo {
+    font-size: 2.6vw;
+    color: var(--my-color);
+}
+
+.icon-box i,
+nav a {
+    font-size: 1.5vw;
+}
+
+.icon-box i {
+    cursor: pointer;
+    color: var(--my-color);
+}
+
+.icon-box i:hover {
+    color: #3eb0bf;
+}
+
+/* Hero section styling */
+.hero-section {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 88.5%;
+}
+
+.right-box {
+    width: 60%;
+}
+
+.left-box {
+    width: 40%;
+    display: flex;
+    align-items: end;
+}
+
+.left-box img {
+    width: 39vw;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.secondary-text {
+    font-size: 1.2vw;
+    color: #535353;
+}
+
+.text {
+    margin-bottom: .3vw;
+}
+
+.name {
+    font-size: 4vw;
+}
+
+h3.primary-heading {
+    font-size: 2vw;
+}
+
+.hireMe-btn {
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    padding: .7vw 1.5vw;
+    border: none;
+    border-radius: .3vw;
+    background-color: #48c6d7;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hireMe-btn:hover {
+    background-color: #3eb0bf;
+}
