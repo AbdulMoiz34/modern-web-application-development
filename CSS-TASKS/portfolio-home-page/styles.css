@@ -26,8 +26,8 @@ main {
 }
 
 main .container {
-    width: 92%;
-    height: 92%;
+    width: 92vw;
+    height: 45vw;
     background-color: #e9f8fa;
     box-shadow: 0 5px 10px #00000052;
     border-radius: 12px;
