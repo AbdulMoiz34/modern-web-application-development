@@ -72,8 +72,6 @@ header a {
 }
 
 /* Home Page Styling */
-
-
 .homePage {
     width: 100%;
     height: 100%;
@@ -121,6 +119,7 @@ header a {
     top: 9vw;
     width: 49.5vw;
     right: .1vw;
+    z-index: 1;
 }
 
 .right-box .cartoon-back-img {
@@ -128,23 +127,197 @@ header a {
     height: 100%;
 }
 
-.plus-1 {
+.plus-icon {
+    width: 1vw;
     position: absolute;
+}
+
+.plus-1 {
     top: 16vw;
     left: 42vw;
-    width: 1vw;
 }
 
 .plus-2 {
-    position: absolute;
     top: 13vw;
     left: 45.2vw;
-    width: 1vw;
 }
 
 .plus-3 {
-    position: absolute;
     bottom: 5.5vw;
     left: 45.6vw;
-    width: 1vw;
+}
+
+
+/* customize section styling */
+
+.customize-section {
+    position: relative;
+    height: 75vw;
+    background-color: #171717;
+    color: #fff;
+}
+
+.customizeCircle {
+    position: absolute;
+    left: 7vw;
+    width: 31vw;
+    height: 31vw;
+    display: flex;
+    margin-top: 12vw;
+    border-radius: 15rem;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+    box-shadow: inset -10px -10px 40px hsla(0, 0%, 100%, .45), inset 10px 10px 20px rgba(0, 0, 0, .45);
+}
+
+img.ellipse {
+    top: 17vw;
+    z-index: 2;
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+}
+
+
+.customizeData {
+    position: relative;
+    padding: 15vw 8vw 5vw 0;
+    z-index: 3;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 35vw;
+}
+
+.customizeHead {
+    font-size: 7.5vw;
+}
+
+.customizePara {
+    font-size: 2.7vw;
+}
+
+.customizeParagraph {
+    font-size: 1.01vw;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+
+
+.customizeIcons {
+    display: flex;
+    justify-content: start;
+    margin-top: 2.3vw;
+    gap: 1.5vw;
+}
+
+.circleBox {
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconCircle {
+    background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -10px -10px 40px hsla(0, 0%, 100%, .45), inset 10px 10px 20px rgba(0, 0, 0, .45);
+
+}
+
+.insideIconCircle {
+    background: linear-gradient(0deg, #c3ffe8, #f0fff4 99.73%);
+    border-radius: 100%;
+    padding: .9vw 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.iconInsideCircle {
+    width: 2.3vw;
+    height: 2.3vw;
+}
+
+.iconsHead {
+    font-size: 1.7vw;
+    margin-top: 1.5vw;
+}
+
+.iconsPara {
+    text-align: center;
+    font-size: .9vw;
+}
+
+.customBtnBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.5vw;
+
+}
+
+.customBtnBox button {
+    padding: 1vw 2.5vw;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: .8vw;
+    background: linear-gradient(180deg, #9419df, #4b19da);
+    color: #fff;
+    font-size: 1vw;
+    border: none;
+}
+.customBtnBox button:hover  {
+    background: linear-gradient( 0deg, #9419df, #4b19da);
+}
+
+.plus01 {
+    width: 2vw;
+    top: 7vw;
+    left: 34.5vw;
+}
+
+.plus02 {
+    top: 15vw;
+    left: 27vw;
+    width: 2vw;
+}
+
+.plus03 {
+    top: 22vw;
+    left: 33vw;
+}
+
+.plus04 {
+    top: 26vw;
+    left: 35vw;
+}
+
+.plus05 {
+    top: 59vw;
+    left: 21vw
+}
+
+.plus06 {
+    left: 25vw;
+    top: 55vw;
+}
+
+.plus07 {
+    top: 66vw;
+    left: 82vw;
+}
+
+.plus08 {
+    width: 1.7vw;
+    top: 70vw;
+    left: 76vw;
 }
