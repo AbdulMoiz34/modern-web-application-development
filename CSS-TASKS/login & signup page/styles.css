@@ -1,0 +1,151 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue-color: #4070F4;
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
+    font-family: sans-serif;
+}
+.container {
+    background-color: #fff;
+    width: 35%;
+    border-radius: 12px;
+    padding: 2.7vw 2.5vw;
+    margin: 3vw 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2vw;
+    padding-top: 1.2vw;
+    color: #606060;
+
+}
+
+.signup-form,
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    justify-content: center;
+}
+
+input[type="email"],
+input[type="password"] {
+    outline: none;
+}
+
+input {
+    border-radius: 12px;
+    border: 1px solid #dedede;
+    padding: 1vw 1.9vw;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: var(--blue-color);
+    color: #fff;
+    font-weight: 600;
+    transition: .6s;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+.para {
+    text-align: center;
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+    color: #606060;
+}
+
+.para a {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+.loginBtnContainer {
+    margin-top: 2vw;
+    display: flex;
+    gap: 1.2vw;
+    flex-direction: column;
+}
+
+.fb-login-btn {
+    background-color: var(--blue-color);
+    color: #fff;
+    position: relative;
+}
+
+.google-login-btn i {
+    background: linear-gradient(90deg, #4285F4 0%, #34A853 40%, #FBBC05 60%, #EA4335 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.fb-login-btn i,
+.google-login-btn i {
+    position: absolute;
+    left: 5%;
+    font-size: 1.5vw;
+}
+
+.loginBtnContainer button {
+    padding: 1vw 1.9vw;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button.google-login-btn {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+
+.horizontalLine {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.horizontalLine p:before {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 3%;
+    left: 0;
+    top: .7vw;
+    background-color: #d1d1d1;
+}
+
+.horizontalLine p:after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 3%;
+    right: 0;
+    top: .7vw;
+    background-color: #d1d1d1;
+}
