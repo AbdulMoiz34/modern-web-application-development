@@ -1,0 +1,69 @@
+form {
+    background-color: #ffffff;
+    width: 37vw;
+    min-height: 42vw;
+    padding: 3vw 1.2vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.login-btn {
+    /* margin-top: .5vw; */
+}
+
+.horizontal-row {
+    position: relative;
+    text-align: center;
+}
+
+.horizontal-row:before {
+    position: absolute;
+    content: "";
+    top: .5vw;
+    left: 0;
+    background-color: #bebebe;
+    width: 45%;
+    height: 1.1px;
+}
+
+.horizontal-row:after {
+    position: absolute;
+    content: "";
+    top: 1vw;
+    right: 0;
+    background-color: #bebebe;
+    width: 45%;
+    height: 1.1px;
+}
+.btns-container {
+    margin-top: 1.4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1vw;
+}
+.btns-container button {
+    position: relative;
+}
+.btns-container i {
+    position:absolute;
+    left: 5%;
+    top: 30%;
+}
+
+.btns-container .google-btn:hover {
+background-color: transparent;
+}
