@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 65%;
+    padding: 3vw;
+    background-color: rgb(44, 44, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tHeading {
+    margin-bottom: 2vw;
+    font-size: 2.5vw;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 1vw 3vw;
+}
+
+table tr td:nth-child(1) {
+    text-align: start;
+    padding-left: .5vw;
+}
+
+td {
+    border: 1px solid #4f4f4f;
+    color: #bababa;
+    font-size: 1.2vw;
+}
+
+th {
+    font-size: 1.1vw;
+}
+
+.th1 {
+    background-color: #fff;
+    color: #000;
+}
+
+.th2 {
+    background-color: orange;
+}
+
+.th3 {
+    background-color: red;
+}
+
+.th4 {
+    background-color: aqua;
+}
+
+td>button {
+    background-color: red;
+    border: none;
+    padding: .7vw 2vw;
+    font-size: .9vw;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    letter-spacing: 0.041vw;
+}
