@@ -19,7 +19,10 @@ Portfolio Home Page = https://portfolio-home-page-0.netlify.app/
 Reponsive web designning   =  https://responsive-web-app-1.netlify.app/
 
 Login & Signup Pages = https://authenticationpages.netlify.app/
+<<<<<<< HEAD
 
 Table Task = https://promotion-plans-table-task.netlify.app/
 
 SaltnnPepper = https://saltnpepperclonetask.netlify.app/
+=======
+>>>>>>> parent of d4d8a51 (Update README.md)
