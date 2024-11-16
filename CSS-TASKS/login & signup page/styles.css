@@ -125,8 +125,7 @@ button.google-login-btn {
 }
 
 .horizontalLine {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     position: relative;
 }
 
