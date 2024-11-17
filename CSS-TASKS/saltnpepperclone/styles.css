@@ -1,0 +1,816 @@
+:root {
+    --red: #ED1C24;
+    --white: #fff;
+    --gray: #B7B7B7;
+    --noraml-font-size: 1.4vw;
+    --large-font-size: 2.2vw;
+    --border-radius: 2vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+body {
+    background-color: #0F0F0F;
+    font-family: sans-serif;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+}
+
+section {
+    margin-top: 12vw;
+}
+
+/* Header styling */
+header a>i.icon {
+    width: 2.3vw;
+    height: 2.3vw;
+    border-radius: 1.15vw;
+    background: #fff;
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5vw 4vw;
+}
+
+.logo {
+    width: 17vw;
+}
+
+nav {
+    display: flex;
+    gap: 2.5vw;
+    align-items: center;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--noraml-font-size);
+}
+
+nav button {
+    font-size: var(--noraml-font-size);
+    background: none;
+    color: var(--white);
+    border: none;
+}
+
+nav a:nth-of-type(4) {
+    border: .1vw solid var(--white);
+    border-radius: var(--border-radius);
+    padding: 1.2vw;
+}
+
+nav a:nth-of-type(5) {
+    border-radius: var(--border-radius);
+    padding: 1vw 1.5vw;
+    display: flex;
+    gap: 1.5vw;
+    align-items: center;
+    background-color: var(--red);
+}
+
+header>.nav-icon {
+    color: var(--white);
+    font-size: 2.4vw;
+    display: none;
+}
+
+/* slider img */
+.slider-img {
+    width: 100%;
+    height: 85vh;
+}
+
+/* sec and primary heading */
+.secHead {
+    font-size: 3.5vw;
+    text-align: center;
+    display: block;
+}
+
+.secHead>span {
+    font-weight: 900;
+    font-family: "Rakkas";
+    letter-spacing: .3vw;
+}
+
+.primaryPara {
+    color: var(--gray);
+    font-size: 1.25vw;
+    margin-top: .7vw;
+}
+
+/* ourBrands styling */
+.ourBrands {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+}
+
+.ourBrands>div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandsRow {
+    width: 70%;
+    display: flex;
+    gap: 2vw;
+}
+
+.brandsRow .brandsBox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 0;
+    gap: 1.5vw;
+}
+
+.brandsRow .brandsBox img {
+    background-color: #fff;
+    padding: 2.5vw 2.5vw;
+    border-radius: .5vw;
+}
+
+.brandsBox button {
+    padding: 1.1vw 3vw;
+    background-color: #000;
+    border-radius: 2.5vw;
+    color: #fff;
+    border: 1px solid #9e9e9e96;
+    font-size: 1.2vw;
+}
+
+/* restaurant-franchise styling | firstSection styling*/
+.franchiseFirstSection {
+    position: relative;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icon {
+    margin-right: 0.7vw;
+    color: var(--gray);
+    font-size: 1.4vw;
+}
+
+.franchiseBoxes {
+    display: flex;
+    width: 80%;
+    margin-top: 3.5vw;
+}
+
+.franchiseBoxesData {
+    width: 50%;
+}
+
+.franchiseBoxes>img {
+    width: 50%;
+}
+
+.franchiseCountry {
+    color: var(--red);
+    letter-spacing: .5vw;
+    display: inline-block;
+    margin-bottom: 1vw;
+}
+
+.franchiseMap {
+    margin-top: 2vw;
+    color: var(--gray);
+    font-size: 1.7vw;
+}
+
+.franchiseTel {
+    margin-top: 1vw;
+
+    &>a {
+        font-size: 1.7vw;
+        text-decoration: none;
+        color: var(--gray);
+    }
+}
+
+.franchiseBtn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 600;
+    border: 1px solid #9e9e9e96;
+    padding: .7vw .5vw;
+    margin-top: 3.7vw;
+    border-radius: 2.5vw;
+    display: inline-block;
+    display: flex;
+    width: 16vw;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+a>.franchiseBtnIcon {
+    color: var(--red);
+    background-color: #fff;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- */
+
+/* secondSection styling franchiseExpress styling */
+.franchiseSecondSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+}
+
+.franchiseRow {
+    width: 85vw;
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.franchiseSecondBoxes {
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+    align-items: center;
+    margin-top: 1.7vw;
+}
+
+.franchiseSecondBoxes>img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+}
+
+.franchiseSecondBoxes>.franchiseCountry {
+    display: inline-block;
+    margin-top: 1.5vw;
+}
+
+.franchiseSecondBoxes :is(.franchiseMap, .franchiseTel, a) {
+    font-size: 1.3vw;
+}
+
+.franchiseSecondBoxes>a {
+    width: 13vw;
+    padding: 1.3vw .5vw;
+
+    & i {
+        background-color: #fff;
+        padding: .2vw;
+        border-radius: 1vw;
+        width: 1.3vw;
+        height: 1.3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--red);
+
+        &::before {
+            transform: rotate(317deg);
+        }
+    }
+}
+
+
+/* third section styling */
+.franchiseThirdSection {
+    display: flex;
+    gap: 4vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.villageFranchise {
+    width: 100%;
+    display: flex;
+}
+
+.villageFranchise>img {
+    width: 50%;
+}
+
+.villageFranchise :is(img, .villageFranchiseData) {
+    flex: 1;
+}
+
+.villageFranchiseData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: start;
+    padding-left: 2vw;
+}
+
+.directionBtn {
+    width: 13.5vw;
+    height: 4vw;
+    background-color: #28A745;
+    color: #fff;
+    font-size: 1.3vw;
+    text-decoration: none;
+    border-radius: 2.2vw;
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+
+    &>i {
+        margin-left: 0.7vw;
+        color: #28A745;
+        background: #fff;
+        border-radius: 1.5vw;
+        padding: 0.8vw;
+    }
+
+}
+
+.directionBtn:hover {
+    background-color: #000;
+    border: 1px solid #28A745;
+}
+
+.villageFranchiseData :is(.franchiseMap, .franchiseTel) {
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+.franchiseHead {
+    font-size: 2vw;
+    font-weight: 100;
+
+    &>.special {
+        font-weight: 900;
+        font-size: 2.3vw;
+    }
+}
+
+
+/* openingFranchise Styling */
+.openingFranchises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.openingFranchiseRow {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.openingFranchiseRow>.openingCol {
+    margin-top: 2vw;
+    background-color: #fff;
+    width: 25.33vw;
+    height: 25vw;
+    border-radius: .7vw;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1vw;
+}
+
+.openingCol>img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.opening-soon {
+    letter-spacing: .3vw;
+    text-transform: uppercase;
+    opacity: .8;
+    color: var(--red);
+    font-size: 1vw;
+}
+
+.openingCol h4 {
+    font-weight: 600;
+    font-size: 1.7vw;
+}
+
+.openingCol>.address {
+    line-height: 2.3vw;
+    font-size: 1.5vw;
+}
+
+
+/* Footer  styling*/
+
+footer {
+    margin-top: 10vw;
+    background-color: #0F0F0F;
+}
+
+.footerBox {
+    display: flex;
+    padding: 4vw 1.5vw;
+    gap: 3vw;
+    color: var(--gray);
+
+}
+
+.footerBox .logo {
+    width: 15vw;
+}
+
+footer .footer-head {
+    font-family: sans-serif;
+    margin-bottom: 2.5vw;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6vw;
+}
+
+.footer-details-box {
+    margin-top: 1.5vw;
+    width: 40vw;
+
+    &>.primaryPara {
+        margin-top: 3vw;
+    }
+}
+
+.site-links,
+.contact-info,
+.follow-info {
+    width: 20vw;
+}
+
+.site-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    list-style: none;
+}
+
+.contact-info {
+    width: 24vw;
+}
+
+.footer-contact-head {
+    font-weight: 600;
+    color: #fff;
+    margin: 1.6vw 0;
+    font-size: 1.4vw;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    display: inline-block;
+}
+
+footer .tel-link {
+    word-spacing: .5vw;
+}
+
+.follow-info img {
+    width: 70%;
+    margin-top: 1.3vw;
+}
+
+
+.social-links-row {
+    width: 80%;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw
+}
+
+.social-links-row a {
+    width: 3.5vw;
+    height: 3.5vw;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+
+    &>i {
+        font-size: 1.6vw;
+    }
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+    font-weight: bolder;
+}
+
+footer address {
+    font-size: 1.3vw;
+    line-height: 1.7VW;
+}
+
+/* Responsivess */
+
+@media (max-width:600px) {
+    :root {
+        --heading-font-size: 4vw;
+    }
+
+    .nav-icon {
+        display: inline-block !important;
+    }
+
+    nav>a {
+        display: none;
+    }
+
+    .order-btn {
+        font-size: 2.4vw;
+        display: inline-block;
+    }
+
+    .slider-img {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .secHead {
+        font-size: 3.5vw;
+    }
+
+    .ourBrands .primaryPara {
+        font-size: 2.5vw;
+        width: 70%;
+        text-align: center;
+    }
+
+    .brandsRow {
+        overflow: auto;
+        width: 90%;
+    }
+
+    .franchiseBoxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .franchiseBoxesData {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3vw;
+    }
+
+    .franchiseFirstSection>div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primaryPara {
+        width: 70%;
+        margin-top: 1.2vw;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .franchiseBoxes>img {
+        width: 100%;
+    }
+
+    .franchiseHead {
+        font-size: 3.4vw;
+    }
+
+    .franchiseMap {
+        font-size: 2.4vw;
+    }
+
+    .franchiseBoxes i {
+        font-size: 2.2vw;
+    }
+
+    .franchiseBtn {
+        font-size: 2.3vw;
+        padding: 2vw 1vw;
+        width: 30vw;
+    }
+
+    .franchiseFirstSection>div:nth-child(3) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .franchiseSecondBoxes {
+        width: 100vw;
+    }
+
+    .franchiseSecondBoxes :is(.franchiseMap, .franchiseTel, a) {
+        font-size: 2.3vw;
+    }
+
+    .franchiseSecondBoxes>.franchiseCountry {
+        margin-top: 2.1vw;
+    }
+
+    .franchiseSecondBoxes>a {
+        font-size: 2.3vw;
+        padding: 2vw 1vw;
+        width: 30vw;
+
+        & i {
+            padding: 1vw;
+        }
+    }
+
+    .villageFranchise {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+        &>img {
+            width: 85%;
+
+        }
+    }
+
+    .villageFranchiseData {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        margin-top: 3vw;
+    }
+
+    .villageFranchiseData :is(.franchiseMap, .franchiseTel) {
+        font-size: 2.3vw;
+        font-weight: 100;
+    }
+
+    .villageFranchiseData i {
+        font-size: 2.5vw;
+    }
+
+    .directionBtn {
+        width: 24vw;
+        height: 6vw;
+        background-color: #28A745;
+        color: #fff;
+        font-size: 2.3vw;
+        text-decoration: none;
+        border-radius: 2.2vw;
+        margin-top: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .4s;
+
+        &>i {
+            margin-left: 0.7vw;
+            color: #28A745;
+            background: #fff;
+            border-radius: 1.5vw;
+            padding: 0.8vw;
+        }
+    }
+
+    .openingFranchiseRow>.openingCol {
+        width: 100vw;
+        height: 55vw;
+
+        >img {
+            width: 8vw;
+            height: 8vw;
+        }
+    }
+
+    .openingFranchiseRow .openingCol :is(p, h4) {
+        font-size: 4vw;
+    }
+
+    .openingCol>.address {
+        line-height: 4.5vw;
+    }
+
+    .footerBox {
+        flex-direction: column;
+    }
+
+    .footer-details-box {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &>.primaryPara {
+            font-size: 3vw;
+        }
+    }
+
+    .footerBox .logo {
+        width: 28vw;
+    }
+
+    .footerBottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+
+    }
+
+    .footerBottom>p {
+        font-size: 3vw;
+    }
+
+    footer .footer-head {
+        font-size: 4vw;
+    }
+
+    .footer-contact-head {
+        font-size: 3vw;
+    }
+
+    .footerBox>div {
+        width: 90vw;
+    }
+
+    .contact-info :is(.tel-link, .mail-link) {
+        font-size: 2.3vw;
+    }
+
+    .social-links-row a {
+        width: 9vw;
+        height: 9vw;
+        border-radius: 4.5vw;
+
+        &>i {
+            font-size: 3.3vw;
+        }
+    }
+
+    .follow-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    .follow-info img {
+        width: auto;
+        height: auto;
+    }
+
+    footer address {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+}
