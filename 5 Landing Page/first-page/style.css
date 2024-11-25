@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "roboto bold";
+    src: url("./assets/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("./assets/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-section {
+    width: 50%;
+    height: 100%;
+}
+
+.right-section {
+    width: 50%;
+    background-image: url("./assets/images/bg.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.left-section>div {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    /* background-color: lightslategray; */
+}
+
+.left-section>div>div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.left-section .heading {
+    font-size: 30px;
+    font-family: "roboto bold";
+}
+
+.left-section .para {
+    font-family: "roboto";
+}
+
+.left-section .btn {
+    text-decoration: none;
+    width: 120px;
+    padding: 10px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #92EBF1 0%, #86FDE8 100%);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+        background: linear-gradient(90deg, #538b8f 0%, #5bae9f 100%);
+    }
+
+    &:hover>a {
+        color: #fff;
+    }
+}
+
+.left-section .btn>a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.logo {
+    flex: 10;
+    display: flex;
+    align-items: center;
+    /* background-color: yellowgreen; */
+}
+
+.content {
+    flex: 90;
+    display: flex;
+    /* background-color: purple; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+@media only screen and (max-width:550px) {
+    .left-section>div {
+        width: 90%;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    .left-section {
+        height: 60%;
+    }
+
+    .right-section {
+        height: 80%;
+        background-repeat: no-repeat;
+    }
+
+    .left-section .logo {
+        align-items: flex-end;
+
+        &>img {
+            width: 90px;
+        }
+    }
+
+    .left-section .content {
+        gap: 17px;
+    }
+}
