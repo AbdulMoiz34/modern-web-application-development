@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <main>
+        <header class="fixed bg-[#d78ae043] backdrop-blur-sm w-full flex justify-center">
+            <div class="w-11/12  flex justify-between h-14 items-center">
+                <div class="">
+                    <img src="./assets/logo.png" alt="" class="h-5">
+                </div>
+                <div class="sm:gap-2 md:gap-8 sm:flex">
+                    <nav class="hidden sm:flex gap-4 items-center">
+                        <span class="cursor-pointer">About</span>
+                        <span class="cursor-pointer">Features</span>
+                        <span class="cursor-pointer">Pricing</span>
+                        <span class="cursor-pointer">Gallery</span>
+                        <span class="cursor-pointer">Team</span>
+                    </nav>
+                    <div class="flex items-center gap-6">
+                        <span
+                            class="cursor-pointer border rounded-full border-black px-8 py-1 hover:bg-[#f9f6fe] hover:shadow-md">Login
+                        </span>
+                        <div class="nav-icon"><i class="fa-solid text-2xl fa-bars block sm:hidden"></i></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="block sm:flex h-screen min-h-[450px]">
+            <div class="w-full sm:w-3/6 h-full min-h-[500px]">
+                <img src="./assets/ice.png" class="w-full h-full" alt="">
+            </div>
+            <div class="w-full sm:w-3/6 h-full bg-[#F6F2FF] flex justify-center">
+                <div class="w-10/12 h-full flex gap-6 flex-col items-start justify-center">
+                    <h1 class="text-5xl sm:text-4xl">Delicious cupcakes <br> from <span
+                            class="bg-gradient-to-r from-[#AF52DE] to-[#00DBDE] bg-clip-text text-transparent">CupYork</span>
+                    </h1>
+                    <p class="text-[#780A0A]">You beautiful and deserve delicious cupcakes. Buy it now <br> and enjoy
+                        the tenderness!</p>
+                    <button class="bg-[#AF52DE] self-center sm:self-start text-white text-sm px-8 py-2 rounded-full">Buy
+                        now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
